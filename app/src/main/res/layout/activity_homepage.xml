@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.prasanth.sportgeek.homepage"
+    android:background="#ff42fffc">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/header"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/menu_button"
+                android:text=""
+                android:id="@+id/settings_button" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="right">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Football"
+                android:id="@+id/button2"
+                android:background="#ffff623f"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Basketball"
+                android:id="@+id/button4"
+                android:background="#ff414dff"
+                android:layout_marginTop="10dp"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:padding="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Volleyball"
+                android:id="@+id/button5"
+                android:background="#ff32ff3e" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp">
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Badminton"
+                android:id="@+id/button6"
+                android:background="#ff31b5ff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+       >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Cricket"
+                android:id="@+id/button8"
+                android:background="#ffff0d22" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp" >
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Hockey"
+                android:id="@+id/button7"
+                android:background="#fffe1483"
+                android:padding="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Throwball"
+                android:id="@+id/button9"
+                android:background="#88ff5af1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp" >
+
+            <Button
+                android:layout_width="163dp"
+                android:layout_height="80dp"
+                android:text="Tennis"
+                android:id="@+id/button"
+                android:background="#fdffff32"
+                android:padding="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

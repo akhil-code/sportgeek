@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="80dp"
+    android:paddingRight="80dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="80dp"
+    android:orientation="vertical"
+    tools:context="com.prasanth.sportgeek.sports_options"
+    android:id="@+id/sports_options"
+    android:background="#fff5fffb">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select the game that you are interested"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cricket"
+        android:id="@+id/checkBox"
+        android:textSize="25dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Badminton"
+        android:id="@+id/checkBox2"
+        android:textSize="25dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tennis"
+        android:id="@+id/checkBox3"
+        android:textSize="25dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volleyballl"
+        android:id="@+id/checkBox4"
+        android:textSize="25dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        android:id="@+id/checkBox5"
+        android:textSize="25dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Football"
+        android:id="@+id/checkBox7"
+        android:textSize="25dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hockey"
+        android:id="@+id/checkBox8"
+        android:textSize="25dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Throwball"
+        android:id="@+id/checkBox6"
+        android:textSize="25dp"
+        android:checked="false" />
+
+</LinearLayout>
